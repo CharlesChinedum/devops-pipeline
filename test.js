@@ -1,9 +1,7 @@
-import { helpers } from "./helpers";
-
-helpers.logger("Starting tests...");
+console.log("Starting tests...");
 
 setTimeout(() => {
   helpers.logger("Waiting 3 seconds...");
 }, 3000);
 
-helpers.logger("Tests completed");
+console.log("Tests completed");

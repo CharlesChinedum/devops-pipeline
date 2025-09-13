@@ -1,4 +1,2 @@
-import { helpers } from "./helpers";
-
-helpers.logger("Hello DevOps!");
-helpers.logger("I'm learning CI/CD using Github Actions");
+console.log("Hello DevOps!");
+console.log("I'm learning CI/CD using Github Actions");
